@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Navigation Bar</title>
+    <title>Phoenix Gaming</title>
     <style>
         /* Basic styles for the navigation bar */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        nav {
+        .nav-container {
             background-color: #333;
+            margin: 0 20px; /* Add margin to the sides of the container */
+        }
+        nav {
             color: #fff;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 10px 20px;
-            margin: 0 20px;
         }
         .company-name {
             font-size: 16px;
@@ -52,17 +54,19 @@
     </style>
 </head>
 <body>
-    <nav>
-        <div>
-            <img src="logo.png" alt="Phoenix Gaming">
-            <div class="company-name">Phoenix Gaming</div>
-        </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Slots</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="nav-container">
+        <nav>
+            <div>
+                <img src="logo.png" alt="Phoenix Gaming">
+                <div class="company-name">Phoenix Gaming</div>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Slots</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
