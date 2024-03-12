@@ -52,16 +52,12 @@
             background-color: #555;
         }
         .iframe-container {
-            width: 100%; /* 100% - 10% margin on each side */
-            margin: 20px 10%; /* Centers the container with a top and bottom margin */
-            overflow: hidden;
-            position: relative;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            margin: 2vw auto;
+            width: 80vw; /* Adjust based on desired width, keeping margins in mind */
+            height: 45vw; /* Height is set based on a 16:9 aspect ratio (80vw * 9 / 16) */
+            overflow: hidden; /* Helps prevent any potential overflow */
         }
         .game-iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
             height: 100%;
             border: none;
